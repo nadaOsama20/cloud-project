@@ -8,10 +8,10 @@ var $link;
     public function __construct() {
         ob_start();
   // Get the main settings from the array we just loaded
-        $host = 'localhost';
-        $db = 'capstone';
-        $user = 'root';
-        $pass = '';
+        $host = 'us-cdbr-east-06.cleardb.net';
+        $db = 'heroku_8f15f863c738f6a';
+        $user = 'b3866a946a25e9';
+        $pass = 'a99a071b';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
@@ -25,10 +25,10 @@ var $link;
 function DbConnector(){
 
         // Get the main settings from the array we just loaded
-        $host = 'localhost';
-        $db = 'capstone';
-        $user = 'root';
-        $pass = '';
+        $host = 'us-cdbr-east-06.cleardb.net';
+        $db = 'heroku_8f15f863c738f6a';
+        $user = 'b3866a946a25e9';
+        $pass = 'a99a071b';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
